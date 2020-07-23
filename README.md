@@ -1,5 +1,8 @@
 # PythonTestAutomation
 
+Install packages after coming to the root directory:
+
+pip install -r requirements.txt
 
 Running test from cmd:
 
