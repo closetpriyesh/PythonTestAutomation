@@ -8,7 +8,9 @@ Create new virtual environment :
 python -m venv env_name 
 
 Activate the created environment:
+
 env_name\Scripts\activate.bat
+
 source env_name/bin/activate(mac & linux)
 
 Running test from cmd:
