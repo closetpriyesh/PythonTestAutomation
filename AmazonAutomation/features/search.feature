@@ -1,15 +1,15 @@
 Feature: Amazon search functionality
 
-    Scenario: Search button works or not
+    Scenario Outline: Search gives expected results or not
         Given user is on home page
-        When user enters "laptop"
-        Then he navigates to page whose title contains "laptop"
+        When user enters "<word>"
+        Then he navigates to page whose title contains "<word>"
+        Then the searched text "<word>" is displayed in a different color
+        and the first item name contains "<word>"
 
-    Scenario: Search gives expected results or not
-        Given user is on home page
-        When user enters "laptop"
-        Then he navigates to page whose title contains "laptop"
-        Then the searched text "laptop" is displayed in a different color
-        and the first item name contains "laptop"
+    Examples:
+        | word      |
+        | laptop    |
+        | chocolate |
 
 
