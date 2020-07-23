@@ -13,11 +13,11 @@ class HomePage(BasePage):
     search_icon = (By.XPATH, "//input[@value='Go']")
 
     def get_search_box(self):
-        self.logger.info("Attempt to get search box element")
+        # self.logger.info("Attempt to get search box element")
         return self.driver.find_element(*HomePage.search_box)
 
     def get_search_icon(self):
-        self.logger.info("Attempt to get search icon element")
+        # self.logger.info("Attempt to get search icon element")
         return self.driver.find_element(*HomePage.search_icon)
 
 
