@@ -1,7 +1,8 @@
 # PythonTestAutomation
 
 Running test from cmd:
-        Pytest normal: py.test (runs all test scripts)
+
+Pytest normal:         py.test (runs all test scripts)
                        py.test tests/file_name.py (runs all test scripts which are contained in file file_name.py under tests directory)
                        py.test -m smoke (runs test scripts containing "smoke" mark
                        py.test --browser_name="firefox" (runs all test scripts in firefox, default is chrome)
