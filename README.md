@@ -10,4 +10,4 @@ Running test from cmd:
 Sample command using all flags:  py.test -m end_to_end --browser_name="firefox" --html=reports/end_to_end.html
     
         BDD: There are two feature files (search.feature, end_to_end.feature. Run using cmd by:
-                      behave features/feature_file_name.feature 
+                      behave features/feature_file_name.feature
